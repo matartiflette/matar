@@ -1,2 +1,2 @@
 # matar
-Le but de ce projet est de crée un petit tool pour spam et autre prochainement
+Le but de ce projet python est de crée un petit tool pour spam et autre prochainement
