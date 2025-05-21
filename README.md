@@ -12,7 +12,7 @@ format disponible: .exe et .deb
 pour linux:
 sudo dpkg -i matar_1.0-1.deb
 
-echo "alias matar='python3 /usr/bin/main.py'" >> ~/.zshrc
+echo "alias matar='python3 /usr/bin/main.py'" >> ~/.zshrc \n
 source ~/.zshrc
 
 puis pour l'appeler: matar
