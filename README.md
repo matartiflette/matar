@@ -17,4 +17,8 @@ echo "alias matar='python3 /usr/bin/main.py'" >> ~/.zshrc
 
 source ~/.zshrc
 
+
+sudo apt-get install python3-pyautogui
+
+
 puis pour l'appeler: matar
