@@ -7,4 +7,12 @@ Pour le brut-force il faut mettre url/login
 git clone https://github.com/matartiflette/matar.git
 
 
-format disponible: .exe et prochainement le .deb
+format disponible: .exe et .deb
+
+pour linux:
+sudo dpkg -i matar_1.0-1.deb
+
+echo "alias matar='python3 /usr/bin/main.py'" >> ~/.zshrc
+source ~/.zshrc
+
+puis pour l'appeler: matar
