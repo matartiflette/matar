@@ -9,7 +9,7 @@ git clone https://github.com/matartiflette/matar.git
 
 format disponible: .exe et .deb
 
-pour linux:
+## pour linux zsh:
 sudo dpkg -i matar_1.0-1.deb
 
 echo "alias matar='python3 /usr/bin/main.py'" >> ~/.zshrc
@@ -20,5 +20,17 @@ source ~/.zshrc
 
 sudo apt-get install python3-pyautogui
 
+
+puis pour l'appeler: matar
+
+## pour linux bash:
+
+sudo dpkg -i matar_1.0-1.deb
+
+echo "alias matar='python3 /usr/bin/main.py'" >> ~/.bashrc
+
+source ~/.bashrc
+
+sudo apt-get install python3-pyautogui
 
 puis pour l'appeler: matar
